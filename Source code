@@ -1,0 +1,31 @@
+//Using the substring() method
+
+function confirmEnding(str, target) {
+  // "Never give up and good luck will find you."
+  // -- Falcor
+  if(str.substring(str.length-target.length) ==  target){
+    return true;
+  }else{
+    return false;
+  }
+  
+}
+
+confirmEnding("Open sesame", "same");
+
+//-----------------------------------------------------
+
+//Using the endsWith() method
+
+function confirmEnding(str, target) {
+  // "Never give up and good luck will find you."
+  // -- Falcor
+  if(str.endsWith(target)){
+    return true;
+  }else{
+    return false;
+  }
+  
+}
+
+confirmEnding("Open sesame", "same");
